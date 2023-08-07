@@ -26,5 +26,47 @@ class MenuItem {
       link: '/cards',
       icon: Icons.credit_card,
     ),
+    MenuItem(
+      title: 'ProgressIndicators',
+      subTitle: 'Generales y Controlados',
+      link: '/progress',
+      icon: Icons.refresh_rounded,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
+    MenuItem(
+      title: 'Tarjetas',
+      subTitle: 'Un contenerdor estilizado',
+      link: '/cards',
+      icon: Icons.credit_card,
+    ),
   ];
 }
