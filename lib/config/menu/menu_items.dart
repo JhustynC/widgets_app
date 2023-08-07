@@ -21,7 +21,7 @@ class MenuItem {
       icon: Icons.smart_button_outlined,
     ),
     MenuItem(
-      title: 'Tarjets',
+      title: 'Tarjetas',
       subTitle: 'Un contenerdor estilizado',
       link: '/card',
       icon: Icons.credit_card,
