@@ -20,11 +20,13 @@ class SnackbarScreen extends StatelessWidget {
 
   void openDialog(BuildContext context) {
     showDialog(
+      useSafeArea: true,
+      //barrierColor: Colors.amber[20],
       barrierDismissible: false,
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Estas seguro?'),
+          title: const Text('Custom Dialog'),
           content: const Text(
               'Excepteur reprehenderit irure enim fugiat. Magna Lorem cillum nostrud tempor fugiat excepteur laborum laboris non in amet eiusmod sunt deserunt. Ipsum nulla do occaecat eiusmod commodo. Officia aute aliqua deserunt ex.'),
           actions: [
@@ -54,13 +56,16 @@ class SnackbarScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FilledButton(
-              onPressed: () {
-                return openDialog(context);
-              },
+              onPressed: () => openDialog(context),
               child: const Text('Licencias Usadas'),
             ),
             FilledButton(
-              onPressed: () {},
+              onPressed: () {
+                showAboutDialog(context: context, children: [
+                  const Text(
+                      'Proident id mollit pariatur officia magna occaecat occaecat. Deserunt laborum excepteur dolore pariatur esse in sunt quis. Sint reprehenderit mollit aute duis veniam nostrud occaecat consequat exercitation tempor fugiat fugiat non enim. Sunt dolor quis laborum irure reprehenderit. In elit est nisi tempor et irure nulla magna exercitation esse.')
+                ]);
+              },
               child: const Text('Mostrar Dialogo'),
             ),
           ],

@@ -39,10 +39,10 @@ class MenuItem {
       icon: Icons.info_outline,
     ),
     MenuItem(
-      title: 'Tarjetas',
-      subTitle: 'Un contenerdor estilizado',
-      link: '/cards',
-      icon: Icons.credit_card,
+      title: 'Animated Container',
+      subTitle: 'Statefull widget animado random',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank,
     ),
     MenuItem(
       title: 'Tarjetas',
