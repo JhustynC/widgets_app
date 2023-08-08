@@ -45,11 +45,10 @@ class MenuItem {
       icon: Icons.check_box_outline_blank,
     ),
     MenuItem(
-      title: 'Tarjetas',
-      subTitle: 'Un contenerdor estilizado',
-      link: '/cards',
-      icon: Icons.credit_card,
-    ),
+        title: 'UI Controllers',
+        subTitle: 'Una serie de controles de flutter',
+        link: '/ui_controls',
+        icon: Icons.control_camera),
     MenuItem(
       title: 'Tarjetas',
       subTitle: 'Un contenerdor estilizado',

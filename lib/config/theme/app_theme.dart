@@ -7,6 +7,7 @@ const colorList = <Color>[
   Colors.green,
   Colors.orange,
   Colors.pink,
+  Color.fromARGB(255, 85, 11, 27)
 ];
 
 class AppTheme {

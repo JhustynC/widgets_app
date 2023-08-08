@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../config/theme/app_theme.dart';
+
 class ButtonsScreen extends StatelessWidget {
   static const String name = 'buttons_screen';
   const ButtonsScreen({super.key});
@@ -73,7 +75,7 @@ class _ButtonsView extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(Icons.zoom_out_rounded),
               style: ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(colors.primary),
+                  backgroundColor: MaterialStatePropertyAll(colorList[6]),
                   iconColor: const MaterialStatePropertyAll(Colors.white)),
             ),
             const CustomButton(),
@@ -89,12 +91,12 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
+    //final colors = Theme.of(context).colorScheme;
 
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Material(
-        color: colors.primary,
+        color: colorList[6],
         child: InkWell(
           onTap: () {},
           child: const Padding(
