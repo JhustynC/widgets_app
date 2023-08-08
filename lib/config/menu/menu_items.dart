@@ -50,22 +50,16 @@ class MenuItem {
         link: '/ui_controls',
         icon: Icons.control_camera),
     MenuItem(
-      title: 'Tarjetas',
-      subTitle: 'Un contenerdor estilizado',
-      link: '/cards',
-      icon: Icons.credit_card,
+      title: 'App Tutorial',
+      subTitle: 'Introduccion para la aplicacion',
+      link: '/app_tutorial',
+      icon: Icons.hdr_weak_outlined,
     ),
     MenuItem(
-      title: 'Tarjetas',
-      subTitle: 'Un contenerdor estilizado',
-      link: '/cards',
-      icon: Icons.credit_card,
-    ),
-    MenuItem(
-      title: 'Tarjetas',
-      subTitle: 'Un contenerdor estilizado',
-      link: '/cards',
-      icon: Icons.credit_card,
+      title: 'Scroll infinito',
+      subTitle: 'Deslizar para abajo infinitamente',
+      link: '/infinite',
+      icon: Icons.format_list_numbered_rtl_sharp,
     ),
   ];
 }
