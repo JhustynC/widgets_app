@@ -61,5 +61,11 @@ class MenuItem {
       link: '/infinite',
       icon: Icons.format_list_numbered_rtl_sharp,
     ),
+    MenuItem(
+      title: 'Counter (Riverpod)',
+      subTitle: 'Contador con getor de estado',
+      link: '/counter',
+      icon: Icons.plus_one,
+    ),
   ];
 }
