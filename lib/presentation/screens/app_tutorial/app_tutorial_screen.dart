@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -51,7 +49,7 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
           endReached = true;
         });
       }
-      print('${pageViewController.page}"');
+      //print('${pageViewController.page}"');
     });
   }
 

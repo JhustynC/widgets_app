@@ -15,13 +15,13 @@ class MenuItem {
 
   static const appMenuItems = <MenuItem>[
     MenuItem(
-      title: 'Botones',
+      title: 'Buttons',
       subTitle: 'Varios botones en flutter',
       link: '/buttons',
       icon: Icons.smart_button_outlined,
     ),
     MenuItem(
-      title: 'Tarjetas',
+      title: 'Cards',
       subTitle: 'Un contenerdor estilizado',
       link: '/cards',
       icon: Icons.credit_card,
@@ -56,8 +56,8 @@ class MenuItem {
       icon: Icons.hdr_weak_outlined,
     ),
     MenuItem(
-      title: 'Scroll infinito',
-      subTitle: 'Deslizar para abajo infinitamente',
+      title: 'Infinite scroll and Pull',
+      subTitle: 'Listas infinintas y pull to refresh',
       link: '/infinite',
       icon: Icons.format_list_numbered_rtl_sharp,
     ),
