@@ -6,14 +6,14 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-  const MenuItem({
+  MenuItem({
     required this.title,
     required this.subTitle,
     required this.link,
     required this.icon,
   });
 
-  static const appMenuItems = <MenuItem>[
+  static List<MenuItem> appMenuItems = <MenuItem>[
     MenuItem(
       title: 'Buttons',
       subTitle: 'Varios botones en flutter',
