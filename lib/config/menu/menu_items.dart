@@ -67,5 +67,11 @@ class MenuItem {
       link: '/counter',
       icon: Icons.plus_one,
     ),
+    MenuItem(
+      title: 'Theme Changer (Riverpod)',
+      subTitle: 'Cambiar el tema de la aplicacion',
+      link: '/theme-changer',
+      icon: Icons.palette,
+    ),
   ];
 }

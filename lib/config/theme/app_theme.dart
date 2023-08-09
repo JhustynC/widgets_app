@@ -7,6 +7,7 @@ const colorList = <Color>[
   Colors.green,
   Colors.orange,
   Colors.pink,
+  Colors.teal,
   Color.fromARGB(255, 85, 11, 27)
 ];
 

@@ -44,11 +44,11 @@ class _HomeView extends StatelessWidget {
 }
 
 class _CustomListTile extends StatelessWidget {
+  final MenuItem menuItem;
+
   const _CustomListTile({
     required this.menuItem,
   });
-
-  final MenuItem menuItem;
 
   @override
   Widget build(BuildContext context) {
